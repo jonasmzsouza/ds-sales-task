@@ -1,0 +1,8 @@
+.pie-chart-container {
+  flex: 1;
+}
+
+.apexcharts-legend.apexcharts-align-center {
+  flex-direction: column;
+  align-items: center;
+}
