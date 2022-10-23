@@ -1,0 +1,27 @@
+.sales-summary-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.sales-summary-quantity-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.sales-summary-quantity {
+  font-size: 36px;
+  color: var(--bs-primary)
+}
+
+.sales-summary-quantity-label {
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .sales-summary-quantity-container {
+    margin-bottom: 0;
+  }
+}

@@ -27,17 +27,20 @@ export const buildPieChartConfig = (labels: string[] = [], name: string) => {
       fontFamily: 'Roboto, sans-serif',
       fontSize: '18px',
       itemMargin: {
-        vertical: 5
+        vertical: 7
       }
     },
     dataLabels: {
-      enabled: true
+      enabled: true,
+      style: {
+        fontSize: '12px'
+      }
     },
     plotOptions: {
       pie: {
         size: 400,
         donut: {
-          size: '75%',
+          size: '65%',
           labels: {
             show: true,
             name: {
