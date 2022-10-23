@@ -1,0 +1,33 @@
+.filter-container {
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 40px 15px;
+}
+
+.filter-select__control {
+  border: 1px solid var(--bs-secondary) !important;
+  height: 50px !important;
+}
+
+.filter-select__placeholder {
+  color: var(--bs-secondary) !important;
+}
+
+.filter-select__indicator-separator {
+  display: none;
+}
+
+.filter-select__indicator {
+  color: var(--bs-secondary) !important;
+}
+
+.filter-select__control--is-focused {
+  box-shadow: none !important;
+}
+
+@media (min-width: 576px) {
+  .filter-container {
+    margin-bottom: 40px;
+    padding: 40px;
+  }
+}
