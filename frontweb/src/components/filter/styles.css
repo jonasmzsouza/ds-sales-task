@@ -26,6 +26,10 @@
   box-shadow: none !important;
 }
 
+.filter-select__menu {
+  max-width: 270px !important;
+}
+
 @media (min-width: 576px) {
   .filter-container {
     margin-bottom: 40px;
